@@ -6,3 +6,14 @@
 		</picture>
 	</a>
 </p>
+
+<style>
+body::after {
+	content: ' ';
+	position: fixed;
+	inset: 0;
+	opacity:50;
+	pointer-events:none;
+	background: #f00;
+}
+</style>
